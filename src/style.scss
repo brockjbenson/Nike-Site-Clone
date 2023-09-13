@@ -42,7 +42,34 @@ body {
     }
 
     .nav-top-right {
-      
+      height: 100%;
+      display: flex;
+      align-items: center;
+      button {
+        width: fit-content;
+        height: 90%;
+        vertical-align: middle;
+        border: none;
+        margin-inline: 8px;
+        background-color: transparent;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        padding-block: 15%;
+
+        &:hover {
+          color: rgb(106, 106, 106);
+        }
+      }
+
+      span {
+        margin-top: 4px;
+        margin-inline: 5px;
+        font-size: 16px;
+      }
     }
   }
 }

@@ -36,4 +36,32 @@ body {
 .nav-top .nav-top-container .nav-top-left img {
   padding-inline: 13px;
   padding-block: 7px;
+}
+.nav-top .nav-top-container .nav-top-right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-top .nav-top-container .nav-top-right button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 90%;
+  vertical-align: middle;
+  border: none;
+  margin-inline: 8px;
+  background-color: transparent;
+}
+.nav-top .nav-top-container .nav-top-right a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  padding-block: 15%;
+}
+.nav-top .nav-top-container .nav-top-right a:hover {
+  color: rgb(106, 106, 106);
+}
+.nav-top .nav-top-container .nav-top-right span {
+  margin-top: 4px;
+  margin-inline: 5px;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
