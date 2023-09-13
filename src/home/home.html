@@ -4,28 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css" />
+    <script src="./home.js" defer></script>
     <title>Nike Website Clone | Brock Benson</title>
   </head>
   <body>
     <nav>
       <section class="nav-top">
-        <div class="nav-top-left">
-          <img src="/public/jordan-logo.png" alt="Jordan Jumpman" />
-          <img src="/public/converse-logo.png" alt="Converse" />
-        </div>
-        <div class="nav-top-right">
-          <button class="nav-top-right-link">
-            <a href="">Find a Store</a>
-          </button>
-          <button class="nav-top-right-link">
-            <a href="">Help</a>
-          </button>
-          <button class="nav-top-right-link">
-            <a href="">Join Us</a>
-          </button>
-          <button class="nav-top-right-link">
-            <a href="">Sign In</a>
-          </button>
+        <div class="nav-top-container">
+          <div class="nav-top-left">
+            <img
+              src="/public/jordan-logo.png"
+              width="22px"
+              alt="Jordan Jumpman"
+            />
+            <img src="/public/converse-logo.png" width="22px" alt="Converse" />
+          </div>
+          <div class="nav-top-right">
+            <button class="nav-top-right-link">
+              <a href="">Find a Store</a>
+            </button>
+            <span class="nav-link-seperator">|</span>
+            <button class="nav-top-right-link">
+              <a href="">Help</a>
+            </button>
+            <span class="nav-link-seperator">|</span>
+            <button class="nav-top-right-link">
+              <a href="">Join Us</a>
+            </button>
+            <span class="nav-link-seperator">|</span>
+            <button class="nav-top-right-link">
+              <a href="">Sign In</a>
+            </button>
+          </div>
         </div>
       </section>
       <section class="nav-btn">
@@ -52,10 +62,10 @@
         </div>
         <div class="nav-btn-right">
           <div class="nav-search">
-            <div class="nav-search-icon-container">
-              <img src="/public/search-glass.png" alt="Search" />
-            </div>
-            <input type="text" />
+            <input type="text" placeholder="Search" />
+          </div>
+          <div class="nav-search-icon-container">
+            <img src="/public/search-glass.png" alt="Search" />
           </div>
           <img src="/public/heart.png" alt="Heart" />
           <img src="/public/bag.png" alt="Bag" />
