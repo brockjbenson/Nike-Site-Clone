@@ -13,6 +13,8 @@ body {
   font-family: $nike-font;
 }
 
+// ===== Nav Top Styles ===== //
+
 .nav-top {
   display: flex;
   justify-content: center;
@@ -45,6 +47,7 @@ body {
       height: 100%;
       display: flex;
       align-items: center;
+      margin-top: 1px;
       button {
         width: fit-content;
         height: 90%;
@@ -59,6 +62,7 @@ body {
         color: black;
         font-size: 12px;
         padding-block: 15%;
+        letter-spacing: 0.1px;
 
         &:hover {
           color: rgb(106, 106, 106);
@@ -66,9 +70,86 @@ body {
       }
 
       span {
-        margin-top: 4px;
-        margin-inline: 5px;
-        font-size: 16px;
+        margin-top: 4.5px;
+        margin-inline: 4.5px;
+        font-size: 15.5px;
+      }
+    }
+  }
+}
+
+// ===== Nav Bottom Styles ===== //
+
+.nav-bottom {
+  display: flex;
+  justify-content: center;
+  height: 5em;
+  .nav-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    max-height: 60px;
+    height: 100%;
+    @media screen and (max-height: 980px) {
+      padding: 0 38px 0 36px;
+    }
+
+    .nav-bottom-left {
+      width: 10%;
+      img {
+        padding-inline: 13px;
+        padding-block: 15%;
+      }
+    }
+
+    .nav-bottom-right {
+      display: flex;
+      height: 100%;
+      align-items: center;
+
+      img {
+        width: 32px;
+        height: 32px;
+        border-radius: 47%;
+        padding: 1.75px 4px;
+        &:hover {
+          background-color: rgb(220, 220, 220);
+        }
+      }
+
+      .nav-search {
+        height: 65%;
+        margin: auto;
+        background-color: rgb(245, 245, 245);
+        display: flex;
+        align-items: center;
+        width: 180px;
+        border-radius: 20px;
+        margin-right: 10px;
+
+        &:hover {
+          background-color: rgb(220, 220, 220);
+        }
+
+        input {
+          background-color: transparent;
+          border: none;
+          outline: none;
+          font-size: 16px;
+          padding-left: 8px;
+
+          &::placeholder {
+            color: rgb(209, 209, 209);
+          }
+        }
+      }
+
+      .search-icons {
+        img {
+          margin: 5px 0 0 15px;
+        }
       }
     }
   }
