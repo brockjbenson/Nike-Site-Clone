@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   height: 3em;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(243, 243, 243);
 }
 .nav-top .nav-top-container {
   display: flex;
@@ -91,7 +91,8 @@ body {
   width: 10%;
 }
 .nav-bottom .nav-bottom-container .nav-bottom-left img {
-  padding-inline: 13px;
+  margin: 5px 20px 0 0;
+  padding-inline: 10px;
   padding-block: 15%;
 }
 .nav-bottom .nav-bottom-container .nav-bottom-right {
@@ -99,41 +100,55 @@ body {
   height: 100%;
   align-items: center;
 }
-.nav-bottom .nav-bottom-container .nav-bottom-right img {
+.nav-bottom .nav-bottom-container .nav-bottom-right #search-icon {
   width: 32px;
   height: 32px;
+  position: relative;
+  left: 42px;
   border-radius: 47%;
   padding: 1.75px 4px;
 }
-.nav-bottom .nav-bottom-container .nav-bottom-right img:hover {
-  background-color: rgb(220, 220, 220);
+.nav-bottom .nav-bottom-container .nav-bottom-right #search-icon:hover {
+  background-color: rgb(223, 223, 223);
 }
 .nav-bottom .nav-bottom-container .nav-bottom-right .nav-search {
   height: 65%;
   margin: auto;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(243, 243, 243);
   display: flex;
   align-items: center;
   width: 180px;
   border-radius: 20px;
-  margin-right: 10px;
+  margin-right: 12px;
 }
 .nav-bottom .nav-bottom-container .nav-bottom-right .nav-search:hover {
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(223, 223, 223);
+}
+.nav-bottom .nav-bottom-container .nav-bottom-right .nav-search:hover input::-moz-placeholder {
+  color: rgb(97, 97, 97);
+}
+.nav-bottom .nav-bottom-container .nav-bottom-right .nav-search:hover input::placeholder {
+  color: rgb(97, 97, 97);
 }
 .nav-bottom .nav-bottom-container .nav-bottom-right .nav-search input {
   background-color: transparent;
   border: none;
   outline: none;
   font-size: 16px;
-  padding-left: 8px;
+  margin-left: 49px;
+  margin-top: 1.5px;
 }
 .nav-bottom .nav-bottom-container .nav-bottom-right .nav-search input::-moz-placeholder {
-  color: rgb(209, 209, 209);
+  color: rgb(200, 200, 200);
 }
 .nav-bottom .nav-bottom-container .nav-bottom-right .nav-search input::placeholder {
-  color: rgb(209, 209, 209);
+  color: rgb(200, 200, 200);
 }
-.nav-bottom .nav-bottom-container .nav-bottom-right .search-icons img {
-  margin: 5px 0 0 15px;
+.nav-bottom .nav-bottom-container .search-icons img {
+  margin: 4px 0 0 8px;
+  border-radius: 50%;
+  padding: 3px;
+}
+.nav-bottom .nav-bottom-container .search-icons img:hover {
+  background-color: rgb(223, 223, 223);
 }/*# sourceMappingURL=style.css.map */
