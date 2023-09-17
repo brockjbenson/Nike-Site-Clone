@@ -1,4 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/trade-gothic-lt-std");
+@import url("https://db.onlinewebfonts.com/c/6c6db39a56fe8e8f19ba47c6a0770a18?family=Helvetica+Neue+65+Medium");
 * {
   margin: 0;
   padding: 0;
@@ -154,17 +155,30 @@ body {
   background-color: rgb(223, 223, 223);
 }
 .nav-bottom .nav-bottom-container .nav-bottom-links {
-  position: absolute;
-  transform: translate(90%, 50%);
-  margin: 0 0 10px 0;
+  height: 100%;
+  position: relative;
+  left: 95px;
+  top: 8px;
 }
 .nav-bottom .nav-bottom-container .nav-bottom-links ul {
   display: flex;
+  height: 100%;
 }
 .nav-bottom .nav-bottom-container .nav-bottom-links ul li {
+  display: flex;
+  align-items: center;
   list-style: none;
-  margin: 0 20px;
   font-size: 16px;
-  font-family: "Trade Gothic LT Std", sans-serif;
-  font-weight: 600;
+  height: 80%;
+  padding-inline: 12px;
+  font-family: "Helvetica Neue 65 Medium";
+  font-weight: 300;
+}
+.nav-bottom .nav-bottom-container .nav-bottom-links ul li:hover {
+  border-bottom: 2px solid black;
+}
+
+.landing {
+  background-color: rgb(243, 243, 243);
+  height: 100vh;
 }/*# sourceMappingURL=style.css.map */
